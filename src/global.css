@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f6f7ff;
+}
+
+.btn {
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  background: #ffd814;
+  border-color: #fcd200;
+  height: 31px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+  display: inline-block;
+  white-space: nowrap;
+}
